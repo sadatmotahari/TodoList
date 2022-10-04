@@ -1,0 +1,9 @@
+body{
+    direction: rtl;
+}
+ul li span{
+    cursor: pointer;
+}
+li.active{
+    color: green;
+}
