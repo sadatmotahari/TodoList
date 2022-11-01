@@ -1,9 +1,26 @@
 body{
     direction: rtl;
 }
+
+    ul{
+        margin: 0;
+        padding: 0;
+        list-style: none;
+    }
+
 ul li span{
     cursor: pointer;
 }
 li.active{
     color: green;
+}
+.todo{
+    width: 200px;
+    margin: 0 auto;
+}
+#showList{
+    text-align: right;
+}
+.form{
+    display: flex;
 }
